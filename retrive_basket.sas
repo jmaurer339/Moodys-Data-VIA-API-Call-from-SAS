@@ -16,7 +16,7 @@
 %moody_encrpt(&AccessKey, &EncryptionKey);
 
 /** Make the API Call **/
-filename modyresp '/home/sas/data/Jim/Test Data/mdataout.csv' ;
+filename modyresp '/xxxxx/sas/data/yyyy/Test Data/mdataout.csv' ;
 proc http
  url="&url"  
  method="GET"
